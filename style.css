@@ -1,6 +1,213 @@
 /* Your CSS goes here */
-
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+ @import url('https://fonts.googleapis.com/css?family=Macondo:400');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
 /* Example */
 img {
   width: 20rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #4f4d50;
+}
+
+li,a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgb(9, 9, 9);
+}
+ul{
+  background-color: rgb(9, 9, 9);
+}
+header h1{
+  font-family: "Tapestry", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-right: auto;
+  background-color: rgb(9, 9, 9);
+  color: white;
+}
+header li{
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: rgb(9, 9, 9);
+}
+
+header li a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: auto;
+  transition: all 0.3s ease 0s;
+  color: white;
+  background-color: rgb(9, 9, 9);
+}
+
+header li a:hover{
+  color: #1ac7f7;
+  background-color: rgb(9, 9, 9);
+}
+
+section.details{
+  align-items: center;
+}
+
+article.details{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+img.details{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+p.details{
+  font-family: "Macondo", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  color: white;
+}
+div.quote{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+i.quote{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+b.quote{
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  margin-left: 5px;
+}
+
+form.form{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+fieldset{
+  margin: 2em 0;
+  padding: 1em 2em;
+  border: solid 5px   black;
+  border-radius: 6px;
+  min-width: 500px;
+  display: inline-block;
+  align-items: center;
+}
+
+fieldset legend{
+  font-size: 1.50em;
+  padding: 0 .25em;
+  color: black;
+  color: white;
+}
+
+fieldset label{
+  display: inline-block;
+  margin-top: 1em;
+  align-items: center;
+  font-size: x-large;
+  align-items: center;
+  color: white;
+}
+
+
+.name{
+  width: 300px;
+  padding: .5em;
+  border: solid 1px #999;
+  color: white;
+  background-color: rgb(43, 45, 42);
+  margin-left: 10px;
+}
+
+.clg{
+  width: 330px;
+  padding: .5em;
+  border: solid 1px #999;
+  color: white;
+  background-color: rgb(43, 45, 42);
+  margin-left: 10px;
+}
+
+.submit{
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: #6138e6eb;
+  font-size: large;
+  padding: .5em;
+  border: solid 1px white;
+  color: white;
+}
+
+footer.footer{
+  background-color: rgb(9, 9, 9);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.footertext{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: auto;
+  background-color: rgb(9, 9, 9);
+}
+
+footer span{
+  display: flex;
+  align-items: center;
+  background-color: rgb(9, 9, 9);
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+  background-color: rgb(9, 9, 9);
+}
+.footerimg{
+  background-color: rgb(9, 9, 9);
+}
+.link{
+  background-color: rgb(9, 9, 9);
+}
+#preloader{
+  background: #000 url(loader.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
